@@ -156,6 +156,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #Upto 3 layers can go through overlays
 PRODUCT_PROPERTY_OVERRIDES += persist.hwc.mdpcomp.enable=true
 
+# Force older camera API.
+PRODUCT_PROPERTY_OVERRIDES += \
+	camera2.portability.force_api=1
+
+# Use awesome player
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.sys.media.use-awesome=true \
+	media.stagefright.use-awesome=true
+
 PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_TAGS += dalvik.gc.type-precise
