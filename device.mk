@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
 	device/lge/geehrc/init.geehrc.usb.rc:root/init.geehrc.usb.rc \
 	device/lge/geehrc/fstab.geehrc:root/fstab.geehrc \
 	device/lge/geehrc/ueventd.geehrc.rc:root/ueventd.geehrc.rc \
+        device/lge/geehrc/recovery/twrp.fstab:recovery/root/etc/twrp.fstab \
 	device/lge/geehrc/media_profiles.xml:system/etc/media_profiles.xml \
 	frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
 	frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
